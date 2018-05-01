@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#1976D2</color>
+    <color name="editTextColorBlue">#3B5998</color>
     <color name="colorAccent">#e91e63</color>
     <color name="colorLightPrimary">#BBDEFB</color>
     <color name="TexIconsColor">#FFFFFF</color>
