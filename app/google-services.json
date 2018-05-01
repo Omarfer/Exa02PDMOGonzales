@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "974169187839",
+    "firebase_url": "https://exa02-pdm-ogonzales.firebaseio.com",
+    "project_id": "exa02-pdm-ogonzales",
+    "storage_bucket": "exa02-pdm-ogonzales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974169187839:android:0b150c345c2dff30",
+        "android_client_info": {
+          "package_name": "com.omarfer.exa02_pdm_ogonzales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974169187839-9gbejasevlbahbc0kebblf9imdrtdeo8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omarfer.exa02_pdm_ogonzales",
+            "certificate_hash": "7c7a8f13e91250558fa4fea650e099965742f946"
+          }
+        },
+        {
+          "client_id": "974169187839-057q0o6ounm0l534l51239g34cnkn3i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGCfWqYcgEAnUUjJl5YveTAWJ6ZpXL6po"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974169187839-057q0o6ounm0l534l51239g34cnkn3i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
