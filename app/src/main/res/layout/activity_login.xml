@@ -47,11 +47,11 @@
                     android:theme="@style/EditTextBlue">
 
                     <android.support.design.widget.TextInputEditText
-                        android:id="@+id/username"
+                        android:id="@+id/email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_useremail"
-                        android:inputType="textPersonName" />
+                        android:inputType="textEmailAddress" />
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
@@ -76,7 +76,7 @@
                     android:layout_margin="@dimen/activity_horizontal_margin"
                     android:text="@string/text_button_login"
                     android:theme="@style/RaisedButtonDark"
-                    android:onClick="Ingresar"/>
+                    />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -99,6 +99,13 @@
             </LinearLayout>
         </ScrollView>
 
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

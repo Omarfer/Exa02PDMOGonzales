@@ -16,4 +16,7 @@
     <string name="minimum_password">Password muy corta, ingresa minimo 6 caracteres!</string>
     <string name="auth_failed">Autentificacion fallida, Revisar su email y clave o registrate</string>
     <string name="forgotPass">¿Olvidaste tu contraseña?</string>
+    <string name="forgot_password_msg">Necesitamos su correo electrónico registrado para enviar las instrucciones para restablecer la contraseña.</string>
+    <string name="btn_reset_password">Restablecer contraseña</string>
+    <string name="lbl_forgot_password">¿Olvidó su contraseña?</string>
 </resources>
