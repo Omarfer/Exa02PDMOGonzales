@@ -19,4 +19,9 @@
     <string name="forgot_password_msg">Necesitamos su correo electrónico registrado para enviar las instrucciones para restablecer la contraseña.</string>
     <string name="btn_reset_password">Restablecer contraseña</string>
     <string name="lbl_forgot_password">¿Olvidó su contraseña?</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_menu">Menú</string>
+    <string name="title_vegetales">Vegetales</string>
+    <string name="title_carnes">Carnes</string>
+
 </resources>
