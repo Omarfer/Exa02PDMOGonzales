@@ -28,7 +28,6 @@ public class ResetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         setContentView(R.layout.activity_reset_password);
-        showToolbar(getResources().getString(R.string.toolbar_tittle_createaccount), true);
 
         inputEmail = findViewById(R.id.email);
         btnReset = findViewById(R.id.btn_reset_password);
@@ -63,12 +62,6 @@ public class ResetPasswordActivity extends AppCompatActivity {
                         });
             }
         });
-    }
-    public void showToolbar(String title, boolean upButton){
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(title);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
     }
 
 }

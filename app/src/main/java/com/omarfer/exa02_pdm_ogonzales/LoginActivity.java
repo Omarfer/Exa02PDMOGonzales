@@ -30,10 +30,11 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //hiding the keyboard
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         auth = FirebaseAuth.getInstance();
 
-        if (auth.getCurrentUser() == null) {
+        if (auth.getCurrentUser() != null) {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
         }

@@ -13,10 +13,10 @@ import com.omarfer.exa02_pdm_ogonzales.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FVerdurasFragment extends Fragment {
+public class RegistroFragment extends Fragment {
 
 
-    public FVerdurasFragment() {
+    public RegistroFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +25,7 @@ public class FVerdurasFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fverduras, container, false);
+        return inflater.inflate(R.layout.fragment_registro, container, false);
     }
 
 }
